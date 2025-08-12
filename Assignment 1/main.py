@@ -88,5 +88,5 @@ print("\n--- Summary of Information Gains ---")
 for feature, ig in ig_results.items():
     print(f"{feature} : {ig:.4f}")
 
-print(f"\n✅ Root node should be: {best_feature} "
+print(f"\n Root node should be: {best_feature} "
       f"(Highest IG: {ig_results[best_feature]:.4f})")
