@@ -5,7 +5,7 @@ import math
 # Configurable Parameters
 # ==========================
 
-DATASET_PATH = "E:\COLLEGE\ML\weather.csv"
+DATASET_PATH = "E:/COLLEGE/ML/weather.csv"
 TARGET_COLUMN = "Played football" # Change if your dataset target column name is different
 
 # ==========================
