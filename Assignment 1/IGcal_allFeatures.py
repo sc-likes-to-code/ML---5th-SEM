@@ -51,3 +51,30 @@ print("\n--- Information Gain values ---")
 for feature, ig in ig_results.items():
     print(f"{feature}: {ig:.4f}")
 print(f"\nRoot node should be: {best_feature} (Highest IG: {ig_results[best_feature]:.4f})")
+
+#output:
+'''
+     Outlook Temperature Humidity   Windy Played football
+0      Sunny         Hot     High    Weak              No
+1      Sunny         Hot     High  Strong              No
+2   Overcast         Hot     High    Weak             Yes
+3       Rain        Mild     High    Weak             Yes
+4       Rain        Cool   Normal    Weak             Yes
+5       Rain        Cool   Normal  Strong              No
+6   Overcast        Cool   Normal  Strong             Yes
+7      Sunny        Mild     High    Weak              No
+8      Sunny        Cool   Normal    Weak             Yes
+9       Rain        Mild   Normal    Weak             Yes
+10     Sunny        Mild   Normal  Strong             Yes
+11  Overcast        Mild     High  Strong             Yes
+12  Overcast         Hot   Normal    Weak             Yes
+13      Rain        Mild     High  Strong              No
+
+--- Information Gain values ---
+Outlook: 0.2467
+Temperature: 0.0292
+Humidity: 0.1518
+Windy: 0.0481
+
+Root node should be: Outlook (Highest IG: 0.2467)
+'''
