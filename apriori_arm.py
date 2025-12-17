@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Dec 17 21:15:40 2025
-
-@author: SHOURJYA
-"""
-
 import csv
 from itertools import combinations
 
